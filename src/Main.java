@@ -6,12 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
         //Reverse array
-        int[] array = {2, 3, 1, 7, 11};
-        Integer[] arrayForRevers = new Integer[array.length];
-
-        for (int i = 0; i < array.length; i++)
-            arrayForRevers[i] = array[i];
-
+        Integer[] arrayForRevers = {2, 3, 1, 7, 11};
         Arrays.sort(arrayForRevers, Collections.reverseOrder());
         System.out.println("Reverse array - " + Arrays.toString(arrayForRevers));
 
