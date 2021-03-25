@@ -5,7 +5,7 @@ public class Fractions {
 
     public Fractions(long numerator, short denominator) {
         if (denominator == 0)
-            System.out.println("Denominator can`t be null!");
+            System.out.println("Denominator can`t be zero!");
         else {
             this.numerator = numerator;
             this.denominator = denominator;
