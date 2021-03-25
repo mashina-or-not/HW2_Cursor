@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         //Circle area
-        Circle.circle_area(5);
+        Circle.circleArea(5);
         System.out.println("-".repeat(30));
 
         //Number of objects
